@@ -1,0 +1,6 @@
+dist/
+node_modules/
+.DS_Store
+# Source video is 15 MB and not needed by the build; the compressed trailer lives in content/media/reel.
+*.MOV
+*.mov

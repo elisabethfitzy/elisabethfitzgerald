@@ -1,0 +1,13 @@
+{
+  "name": "elisabeth-fitzgerald-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Portfolio site for actor Elisabeth Fitzgerald. Static HTML, zero dependencies.",
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "dev": "node src/dev.mjs",
+    "placeholders": "bash tools/make-placeholders.sh"
+  },
+  "engines": { "node": ">=20" }
+}
